@@ -1,46 +1,48 @@
 @charset "utf-8";
-/* about info */
-#about-info .info-right{
-    float: right;
-    width: 50%;
-    min-height: 100%;
+
+#navbar{
+    border-bottom: 1px solid #000;
 }
-#about-info .info-right img{
-    display: block;
-    margin: auto;
-    width: 70%;
-    border-radius: 50%;
+
+.container{
+    margin: 0 20px;
+    max-width: 1100px;
+    padding: 0 20px;
 }
+
 #about-info .info-left{
     float: left;
     width: 50%;
     min-height: 100%;
 }
-/* testimonials */
-#testimonials{
-    height: 600px;
-    background: url(../img/test-bg.jpg) no-repeat center center/cover;
-    padding-top: 100px;
+.info-left h1{
+    padding-bottom: 20px;
+    padding-top: 10px;
 }
-#testimonials h2{
-    color: #fff;
-    text-align: center;
-    padding-bottom: 40px;
+.place1{
+    border-bottom: 1px solid #000;
+    padding-bottom: 10px;
 }
-#testimonials .testmonial{
-    padding: 20px 20px 40px;
-    margin-bottom: 40px;
-    border-radius: 5px;
-    opacity: 0.9;
-}
-#testimonials .testmonial img{
-    width: 100px;
-    float: left;
-    margin-right: 20px;
-    border-radius: 50%;
-}
-#testimonials .testmonial blockquote{
+#map{
+    margin: -339px auto -7px;    
+    width: 70%;
+    height: 100%;
+    min-height: 600px;
     float: right;
-    max-width: 890px;
+    position: relative;
+}
+#main-footer{
+    overflow: hidden;
+    height: 268px;
+}
+.gnb-info{
+    margin-top: -50px;
 }
 
+.info a:hover{
+    background: #2b440c;
+    color: #fff;
+}
+#navbar ul li a:hover{
+    color: #65932c;
+}

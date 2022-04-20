@@ -1,4 +1,15 @@
 /* contact form */
+.btn{
+    margin-left: 0px;
+}
+.btn:hover{
+    background-color: #36563d;
+    color: #fff;
+}
+.cancel{
+    font-size: 18px;
+
+}
 #contact-form .form-group{
     margin-bottom: 20px;
 }
@@ -15,5 +26,7 @@
     outline: none;
     border-color: #f7c08a
 }
-/* 위 방법도 되고 이방법도 됨
-outline:1px solid #c729d3; */
+#main-footer{
+    overflow-x: hidden;
+    margin-top: 87px;
+}
